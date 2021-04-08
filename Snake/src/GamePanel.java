@@ -79,7 +79,7 @@ public class GamePanel extends JPanel implements ActionListener {
 		// generate coordinates of newApple method
 		appleX = random.nextInt((int) (SCREEN_WIDTH / UNIT_SIZE)) * UNIT_SIZE; // appear somewhere random along X
 																				// domains
-		appleX = random.nextInt((int) (SCREEN_HEIGHT / UNIT_SIZE)) * UNIT_SIZE;
+		appleY = random.nextInt((int) (SCREEN_HEIGHT / UNIT_SIZE)) * UNIT_SIZE;
 	}
 
 	public void move() { // moving snake method
